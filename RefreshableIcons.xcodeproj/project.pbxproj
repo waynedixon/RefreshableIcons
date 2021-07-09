@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A37A3BBD26989110002259E2 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A3BBC26989110002259E2 /* Functions.swift */; };
+		A37A3BBE26989110002259E2 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37A3BBC26989110002259E2 /* Functions.swift */; };
 		A3BC028E26987CBC00E52E80 /* SwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC027B26987CB900E52E80 /* SwiftUIAppApp.swift */; };
 		A3BC028F26987CBC00E52E80 /* SwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC027B26987CB900E52E80 /* SwiftUIAppApp.swift */; };
 		A3BC029026987CBC00E52E80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC027C26987CB900E52E80 /* ContentView.swift */; };
@@ -16,12 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A37A3BBC26989110002259E2 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		A3BC027B26987CB900E52E80 /* SwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppApp.swift; sourceTree = "<group>"; };
 		A3BC027C26987CB900E52E80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3BC027D26987CBC00E52E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A3BC028226987CBC00E52E80 /* SwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BC028226987CBC00E52E80 /* RefreshableIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshableIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BC028526987CBC00E52E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3BC028A26987CBC00E52E80 /* SwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BC028A26987CBC00E52E80 /* RefreshableIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshableIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BC028C26987CBC00E52E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3BC028D26987CBC00E52E80 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +62,7 @@
 			children = (
 				A3BC027B26987CB900E52E80 /* SwiftUIAppApp.swift */,
 				A3BC027C26987CB900E52E80 /* ContentView.swift */,
+				A37A3BBC26989110002259E2 /* Functions.swift */,
 				A3BC027D26987CBC00E52E80 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -67,8 +71,8 @@
 		A3BC028326987CBC00E52E80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3BC028226987CBC00E52E80 /* SwiftUIApp.app */,
-				A3BC028A26987CBC00E52E80 /* SwiftUIApp.app */,
+				A3BC028226987CBC00E52E80 /* RefreshableIcons.app */,
+				A3BC028A26987CBC00E52E80 /* RefreshableIcons.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A3BC028126987CBC00E52E80 /* SwiftUIApp (iOS) */ = {
+		A3BC028126987CBC00E52E80 /* RefreshableIcons (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3BC029626987CBC00E52E80 /* Build configuration list for PBXNativeTarget "SwiftUIApp (iOS)" */;
+			buildConfigurationList = A3BC029626987CBC00E52E80 /* Build configuration list for PBXNativeTarget "RefreshableIcons (iOS)" */;
 			buildPhases = (
 				A3BC027E26987CBC00E52E80 /* Sources */,
 				A3BC027F26987CBC00E52E80 /* Frameworks */,
@@ -105,14 +109,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUIApp (iOS)";
+			name = "RefreshableIcons (iOS)";
 			productName = "SwiftUIApp (iOS)";
-			productReference = A3BC028226987CBC00E52E80 /* SwiftUIApp.app */;
+			productReference = A3BC028226987CBC00E52E80 /* RefreshableIcons.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A3BC028926987CBC00E52E80 /* SwiftUIApp (macOS) */ = {
+		A3BC028926987CBC00E52E80 /* RefreshableIcons (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3BC029926987CBC00E52E80 /* Build configuration list for PBXNativeTarget "SwiftUIApp (macOS)" */;
+			buildConfigurationList = A3BC029926987CBC00E52E80 /* Build configuration list for PBXNativeTarget "RefreshableIcons (macOS)" */;
 			buildPhases = (
 				A3BC028626987CBC00E52E80 /* Sources */,
 				A3BC028726987CBC00E52E80 /* Frameworks */,
@@ -122,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUIApp (macOS)";
+			name = "RefreshableIcons (macOS)";
 			productName = "SwiftUIApp (macOS)";
-			productReference = A3BC028A26987CBC00E52E80 /* SwiftUIApp.app */;
+			productReference = A3BC028A26987CBC00E52E80 /* RefreshableIcons.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +148,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A3BC027926987CB900E52E80 /* Build configuration list for PBXProject "SwiftUIApp" */;
+			buildConfigurationList = A3BC027926987CB900E52E80 /* Build configuration list for PBXProject "RefreshableIcons" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,8 +161,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3BC028126987CBC00E52E80 /* SwiftUIApp (iOS) */,
-				A3BC028926987CBC00E52E80 /* SwiftUIApp (macOS) */,
+				A3BC028126987CBC00E52E80 /* RefreshableIcons (iOS) */,
+				A3BC028926987CBC00E52E80 /* RefreshableIcons (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3BC029026987CBC00E52E80 /* ContentView.swift in Sources */,
+				A37A3BBD26989110002259E2 /* Functions.swift in Sources */,
 				A3BC028E26987CBC00E52E80 /* SwiftUIAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3BC029126987CBC00E52E80 /* ContentView.swift in Sources */,
+				A37A3BBE26989110002259E2 /* Functions.swift in Sources */,
 				A3BC028F26987CBC00E52E80 /* SwiftUIAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,16 +327,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SKVF6KXW39;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.waynedixon.SwiftUIApp;
-				PRODUCT_NAME = SwiftUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RefreshableIcons;
+				PRODUCT_NAME = RefreshableIcons;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,16 +349,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SKVF6KXW39;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.waynedixon.SwiftUIApp;
-				PRODUCT_NAME = SwiftUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RefreshableIcons;
+				PRODUCT_NAME = RefreshableIcons;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -368,7 +374,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = SKVF6KXW39;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -377,8 +383,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.waynedixon.SwiftUIApp;
-				PRODUCT_NAME = SwiftUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waynedixon.RefreshableIcons;
+				PRODUCT_NAME = RefreshableIcons;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -392,7 +398,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = SKVF6KXW39;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -401,8 +407,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.waynedixon.SwiftUIApp;
-				PRODUCT_NAME = SwiftUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waynedixon.RefreshableIcons;
+				PRODUCT_NAME = RefreshableIcons;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -411,7 +417,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A3BC027926987CB900E52E80 /* Build configuration list for PBXProject "SwiftUIApp" */ = {
+		A3BC027926987CB900E52E80 /* Build configuration list for PBXProject "RefreshableIcons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3BC029426987CBC00E52E80 /* Debug */,
@@ -420,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3BC029626987CBC00E52E80 /* Build configuration list for PBXNativeTarget "SwiftUIApp (iOS)" */ = {
+		A3BC029626987CBC00E52E80 /* Build configuration list for PBXNativeTarget "RefreshableIcons (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3BC029726987CBC00E52E80 /* Debug */,
@@ -429,7 +435,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3BC029926987CBC00E52E80 /* Build configuration list for PBXNativeTarget "SwiftUIApp (macOS)" */ = {
+		A3BC029926987CBC00E52E80 /* Build configuration list for PBXNativeTarget "RefreshableIcons (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3BC029A26987CBC00E52E80 /* Debug */,
